@@ -1,49 +1,49 @@
 # Arithmetic Operators
 a = 15
 b = 4
-print (a+b)
-print (a-b)
-print (a*b)
-print (a/b)
-print (a%b)
-print (a//b)
-print (a**b)
+print (a+b) # Addition = 19
+print (a-b) # Subtraction = 11
+print (a*b) # Multiplication = 60
+print (a/b) # Division = 3.75
+print (a%b) # Modulus = 3
+print (a//b) # Floor Division = 3
+print (a**b) # Exponentiation = 50625
 
 # Relational Operators
 a = 13
 b = 33
-print (a>b)
-print (a<b)
-print (a==b)
-print (a!=b)
-print (a>=b)
-print (a<=b)
+print (a>b) # False
+print (a<b) # True
+print (a==b) # False
+print (a!=b) # True
+print (a>=b) # False
+print (a<=b) # True
 
 # Logical Operators
 a = True
 b = False
-print (a and b)
-print (a or b)
-print (not a)
+print (a and b) # False
+print (a or b) # True
+print (not a) # False
 
 # Assignment Operators
 a = 10
 b = a
-print (b)
+print (b) # 10
 b += a
-print (b)
+print (b) # 20
 b -= a
-print (b)
+print (b) # 10
 b *= a
-print (b)
+print (b) # 100
 b <<= a
-print (b)
+print (b) # 102400
 
 # Programming Practice Questions
 # 1. Write a program to store your age in a variable and print
 # Answer
 age = 24
-print(age)
+print(age) 
 
 # 2. Create two variables a = 10 and b = 20. Swap their values without using a third variable.
 # Answer
